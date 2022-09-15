@@ -1,0 +1,107 @@
+.navbar {
+  height: 60px !important;
+}
+.logo {
+  width: 100px;
+  height: 80px;
+}
+.mydiv a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.mydiv:hover .content {
+  display: block;
+}
+.dia {
+  background-image: url(https://www.cipla.com/themes/cipla/images_covid_care/image-diagnostics.webp);
+  background-size: 100% 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+}
+.ant {
+  color: rgb(7, 7, 75) !important;
+}
+.ant:hover {
+  text-decoration: underline;
+}
+
+.cipla {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdqdWGA-YXIQz726YYZxyR5mRCkNGaEUThaA&usqp=CAU);
+}
+/* .item {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdqdWGA-YXIQz726YYZxyR5mRCkNGaEUThaA&usqp=CAU);
+    height: 300px;
+  } */
+/* .life {
+    margin-top: 150px;
+  } */
+/* .button {
+    margin-top: 260px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  } */
+.btn:hover {
+  background-color: green !important;
+}
+.icon,
+.image {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+.bse {
+  font-size: 13px !important;
+  display: flex;
+  justify-content: center;
+}
+.download {
+  display: none;
+}
+.download:hover {
+  display: block;
+  background-color: rgb(15, 15, 126);
+}
+.found {
+  margin-top: 150px;
+}
+.health {
+  margin-top: -50px;
+  background-color: aquamarine;
+}
+.img {
+  position: relative;
+}
+.health {
+  position: absolute;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  height: 150px;
+  width: 400px;
+  bottom: -20px;
+  background-color: rgb(25, 154, 197);
+}
+.bi-twitter {
+  color: rgb(25, 154, 197);
+  font-size: 30px;
+}
+.footer a {
+  text-decoration: none;
+  color: whitesmoke;
+  opacity: 0.6;
+}
+.footer:hover a {
+  opacity: 1;
+}
+.copy {
+  font-size: 10px;
+}

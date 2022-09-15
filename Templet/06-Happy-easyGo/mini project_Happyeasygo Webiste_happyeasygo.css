@@ -1,0 +1,387 @@
+/* ############################## header styling ################################################## */
+
+header {
+  background-color: #fff;
+}
+
+header .container .img_1 img {
+  width: 125px;
+  height: 18px;
+}
+
+header .container .span span {
+  font-weight: bold;
+}
+
+header .container .span span:hover {
+  color: rgb(49, 202, 49);
+}
+
+.calender {
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 8px 0 8px 11px;
+}
+
+.calender i {
+  color: #017959;
+}
+
+.calender span {
+  color: #017959;
+  vertical-align: middle;
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+.award {
+  color: #017959;
+  padding: 8px 0 8px 11px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.icon_list ul li {
+  padding: 10px 0 8px 20px;
+}
+
+.icon_list ul li:hover {
+  color: #017959;
+  cursor: pointer;
+}
+
+/* ###################################### flight booking styling ########################################### */
+
+.flight_hotel {
+  display: inline-block;
+  width: 80px;
+  height: 70px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  border-radius: 0 40px 40px 0;
+  text-align: center;
+}
+
+.flight_hotel .flights1 {
+  background-color: #017959;
+  color: #fff;
+  border-radius: 0 40px 40px 0;
+  text-align: center;
+  height: 65px;
+  padding-top: 10px;
+}
+
+.flight_hotel .hote1 i {
+  font-weight: 900;
+  font-size: 25px;
+  padding-top: 15px;
+  color: grey;
+}
+
+.flight_hotel .hote1 strong {
+  font-size: 20px;
+  color: grey;
+}
+
+.from-group {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 14px;
+  position: relative;
+  background: #fafafa;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+}
+.from-group label {
+  font-size: 12px;
+  line-height: 10px !important;
+  color: #bcc4cc;
+  position: absolute;
+  top: -4px;
+  left: 8px;
+  background: linear-gradient(180deg, #fff, #fafafa);
+  padding: 0 6px;
+  font-weight: 400;
+  z-index: 10;
+}
+
+.from1 {
+  width: 50%;
+  height: 40px;
+  margin-bottom: 14px;
+  position: relative;
+  background: #fafafa;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+}
+
+.from1 label {
+  font-size: 12px;
+  line-height: 10px !important;
+  color: #bcc4cc;
+  position: absolute;
+  top: -4px;
+  left: 8px;
+  background: linear-gradient(180deg, #fff, #fafafa);
+  padding: 0 6px;
+  font-weight: 400;
+  z-index: 10;
+}
+
+.btn-1 button {
+  width: 100%;
+  border-radius: 4px;
+  height: 40px;
+  background-color: #ff9d0d;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  border: none;
+}
+
+.roundIcon {
+  position: absolute;
+  top: 70px;
+  left: 500px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  z-index: 100;
+  box-shadow: 4px 0 4px rgb(0 0 0 / 10%);
+  transform: rotate(90deg);
+}
+
+.roundIcon i:hover {
+  transform: rotate(180deg);
+}
+
+.roundIcon i {
+  display: inline-block;
+  font-size: 20px;
+  color: #017959;
+  transition: transform 0.3s ease-in;
+}
+
+/* ########################################## conatner styling ##############################################3 */
+
+section .logo {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  margin-right: 20px;
+  margin-left: 49px;
+  margin-top: 30px;
+}
+
+section .logo img {
+  position: absolute;
+  top: 18px;
+  left: 70px;
+}
+
+section .logo .font-bold {
+  font-size: 14px;
+}
+
+section .logo p {
+  font-size: 12px;
+}
+
+.item .design {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.item .design p {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.item .design span {
+  font-size: 12px;
+}
+
+/* ########################################## mobile appplication ########################################33 */
+
+.mobile_img {
+  position: relative;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 470px;
+  max-height: 470px;
+}
+
+.mobile_img img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  max-height: 100%;
+  background: 100% no-repeat;
+}
+
+.button_10 .num input {
+  width: 328px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #fff;
+  text-indent: 70px;
+  box-sizing: border-box;
+  padding: 13px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #281800;
+  border: none;
+}
+
+.button_10 .num_1 button {
+  width: 328px;
+  height: 48px;
+  margin-top: 12px;
+  background-color: #007c5b;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 48px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button_10 .logo_1 img {
+  width: 140px;
+  height: 48px;
+}
+
+.button_10 .scanner .logo_2 img {
+  width: 108px;
+  height: 108px;
+}
+
+.group {
+  position: absolute;
+  z-index: 10;
+  margin-left: 600px;
+  margin-top: 100px;
+}
+
+/* ######################################### accordian styling ################################################## */
+
+.accordion .accordion-item button p {
+  height: 40px;
+  line-height: 70px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+}
+
+.accordion .accordion-item .collapse .accordion-body ul li {
+  list-style: inside;
+  font-size: 12px;
+  line-height: 30px;
+  color: #51483b;
+}
+
+/* ######################################## Sign up for Exclusive Email-only Coupons #####################################  */
+
+.container .orange a {
+  display: inline-block;
+  width: 140px;
+  height: 43px;
+  line-height: 28px;
+  background: #e3a428;
+  color: #fff;
+  border-radius: 0 2px 2px 0;
+}
+
+.container .orange {
+  border: 1px solid grey;
+  background: white;
+  width: 442px;
+  height: 47px;
+  border-radius: 5px;
+}
+.container .orange:hover {
+  border: 1px solid #e3a428;
+}
+
+.container .orange input {
+  width: 300px;
+  height: 40px;
+  margin-right: -5px;
+  border: none;
+}
+
+/* ################################################### list ######################################################## */
+
+.list_product p {
+  line-height: 25px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #000;
+  margin-left: 30px;
+}
+
+.list_product ul {
+  list-style: none;
+}
+
+.list_product ul li {
+  font-size: 14px;
+  color: #333;
+  padding-bottom: 8px;
+}
+
+.list_product ul li:hover {
+  color: #007c5b;
+  text-decoration: underline;
+}
+
+/* ############################################ information about flight booking ################################33 */
+
+.info .pad h5 {
+  font-size: 18px;
+  margin: 24px 0 24px 0;
+  font-weight: 700;
+  color: #000;
+}
+
+.info .pad p {
+  font-size: 12px;
+  padding-right: 40px;
+}
+
+/* #########################################33media################################### */
+
+.font-color {
+  color: #017959;
+  font-weight: 700;
+  margin-right: 25px;
+}
+
+.font-size2 ul li a {
+  font-size: 27px;
+  color: #017959;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.font-size2 ul li {
+  padding-top: 6px;
+}
+.imgAdjust {
+  height: 480px;
+  width: 100%;
+}

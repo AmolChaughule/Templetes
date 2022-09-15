@@ -1,0 +1,141 @@
+body {
+  overflow-x: hidden;
+}
+
+.menu {
+  display: inline-block;
+  cursor: pointer;
+}
+
+#hamburger {
+  /* height: 34px; */
+  width: 33px;
+  margin-top: 28px;
+}
+#border {
+  border-bottom: 2px solid #2fbcd1;
+  padding-left: 0;
+}
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.modi a {
+  font-weight: normal;
+  font-size: 50px;
+  color: #2e3192;
+  text-decoration: none;
+  /* font-family: ek_muktaextralight; */
+}
+
+.right a {
+  text-decoration: none;
+  margin-top: 30px;
+}
+.App:hover {
+  transition: 0.5s;
+  transform: rotatex(90deg);
+  transform: translate3d(0, 0);
+}
+.App {
+  border-right: 1px solid black;
+  color: black;
+  height: 30px;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.login {
+  border-right: 1px solid black;
+  height: 30px;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.search {
+  border-right: 1px solid black;
+  height: 30px;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.lang {
+  color: black;
+  height: 30px;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+/* ********************************************************** */
+#slide {
+  margin-bottom: -30px;
+  margin-right: -750px;
+}
+
+#slides {
+  height: 12px;
+  width: 12px;
+}
+
+.Icon a {
+  text-decoration: none;
+}
+#row {
+  border: 1px solid #20b7cd;
+}
+
+#slides2 {
+  margin-top: -400px;
+  height: 15px;
+  /* margin-left: -5px; */
+}
+
+.letter {
+  color: white;
+  font-size: 24px;
+  background-color: rgba(46, 49, 146, 0.8);
+  font-family: "ek_muktalight" !important;
+  width: 88%;
+  margin-bottom: -40px;
+  padding: 45px;
+}
+
+#arrow1 {
+  margin: 0px -300px -420px 0px;
+  width: 40px;
+  height: 20px;
+}
+#arrow2 {
+  margin: 0px 0px -420px -300px;
+  width: 40px;
+  height: 20px;
+}
+
+#arrow1:hover {
+  background-color: red;
+  padding: 110px 0px 10px 0px;
+}
+#arrow2:hover {
+  background-color: red;
+  padding: 110px 0px 10px 0px;
+}
