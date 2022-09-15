@@ -1,0 +1,100 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+  <title>Document</title>
+  <style>
+    .item .design{
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+  </style>
+
+</head>
+<body>
+  <h1>Popular Indian Travel Destinations</h1>
+  <div class="owl-carousel owl-theme">
+    <div class="item">
+        <div class="design">
+          <img src="img/travel/Attend-a-Kathakali-Performance.jpg" alt="">
+          <h3 class="ps-2">10 Stirring things to do in Kochi</h3>
+          <span class="ps-2"><i class="far fa-clock"></i> 2021-10-11 17:17:03</span>
+        </div>
+    </div>
+
+      <div class="item">
+        <div class="design">
+          <img src="img/travel/Camel-Safari.png" alt="">
+          <h3 class="ps-2">Best Things to do on a Jaisalmer Trip</h3>
+          <span class="ps-2"><i class="far fa-clock"></i>   2021-10-01 20:20:03
+          </span>
+        </div>
+      </div>
+
+    <div class="item">
+      <div class="design">
+        <img src="img/travel/peak-season-Copy.jpg" alt="">
+        <h3 class="ps-2">Common Mistakes that Travellers Make</h3>
+        <span class="ps-2"><i class="far fa-clock"></i>2021-10-01 16:58:57</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="design">
+        <img src="img/travel/Royal-Bengal-Tigers-at-Sundarbans.jpg" alt="">
+        <h3 class="ps-2">Tips for Booking Cheap Flight Tickets Online</h3>
+        <span class="ps-2"><i class="far fa-clock"></i>2021-10-01 16:04:07</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="design">
+        <img src="img/travel/travel-credit.jpg" alt="">
+        <h3 class="ps-2">Best Travel Books to Fuel your Wanderlust</h3>
+        <span class="ps-2"><i class="far fa-clock"></i>2021-10-01 13:14:43</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="design">
+        <img src="img/travel/Ultimate-Journeys.jpg" alt="">
+        <h3 class="ps-2">10 Amazing Things to Do in Kolkata</h3>
+        <span class="ps-2"><i class="far fa-clock"></i>2021-09-29 16:46:04</span>
+      </div>
+    </div>
+    
+   
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script>
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+</script>
+  
+</body>
+</html>

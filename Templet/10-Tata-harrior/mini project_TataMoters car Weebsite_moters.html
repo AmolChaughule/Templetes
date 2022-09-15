@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <title>Document</title>
+    <style>
+        .item .and .car_bikes img{
+            width: 150px;
+            height: 120px;
+        }
+        .item .and .car_bikes{
+            display: flex;
+        }
+
+        .item .and .car_bikes p{
+            padding-left: 10px;
+        }
+
+        .item .easy{
+            color: #98040d;
+        }
+        .item .easy:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .item .and .car_bikes p span{
+            color: #98040d;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Set up your HTML -->
+
+    <div class="owl-carousel owl-theme">
+        <div class="item" style="border: 1px solid black; width: 347px; height: 132;">
+            <h3 class="easy">Car and Bike</h3>
+            <hr style="border-bottom:1px solid grey ;">
+            <div class="row and">
+                <div class="car_bikes">
+                    <img class="pt-3" src="img/reviews img/thumbreviews04.jpg">
+                    <p>  With some styling updates, quite a few updates in the features department and a BS6 engine that's now available with an...                 
+                        <span>Read more</span> </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item" style="border: 1px solid black; width: 347px; height: 132;">
+            <h3 class="easy">Times Drive</h3>
+            <hr style="border-bottom:1px solid grey ;">
+            <div class="row and">
+                <div class="car_bikes">
+                    <img class="pt-3" src="img/reviews img/thumbreviews05.jpg">
+                    <p>  Tata Motors has upgraded the 2020 Harrier with a raft of improvements and is confident it can now achieve its true....                     
+                    <span>Read more</span></p>
+                </div>
+            </div></div>
+
+        <div class="item" style="border: 1px solid black; width: 347px; height: 132;">
+            <h3 class="easy">Autocar India</h3>
+            <hr style="border-bottom:1px solid grey ;">
+            <div class="row and">
+                <div class="car_bikes">
+                    <img class="pt-3" src="img/reviews img/thumbreviews03.jpg">
+                    <p>  Tata Motors has upgraded the 2020 Harrier with a raft of improvements and is confident it can now achieve its true....
+                        <span>Read more</span></p>
+                </div>
+            </div></div>
+
+        <div class="item" style="border: 1px solid black; width: 347px; height: 132;">
+            <h3 class="easy">Overdrive</h3>
+            <hr style="border-bottom:1px solid grey ;">
+            <div class="row and">
+                <div class="car_bikes">
+                    <img class="pt-3" src="img/reviews img/thumbreviews02.jpg">
+                    <p> The Tata Harrier with its unique design and shades of Land Rover styling has already hit a sweet spot in the market. It...
+                        <span>Read more</span> </p>
+                </div>
+            </div></div>
+
+        <div class="item" style="border: 1px solid black; width: 347px; height: 132;">
+            <h3 class="easy">AutoX</h3>
+            <hr style="border-bottom:1px solid grey ;">
+            <div class="row and">
+                <div class="car_bikes">
+                    <img class="pt-3" src="img/reviews img/thumbreviews01.jpg">
+                    <p>  The 2020 Harrier is a good example of how small things make a huge difference. Repositioning the USB port, the smaller...
+                                        
+                        <span>Read more</span></p>
+                </div>
+            </div></div>
+        
+    </div>
+
+
+      
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script>$('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    })</script>
+</body>
+</html>

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" href="/images/olx-icon.png" />
+    <title>OLX</title>
+    <link rel="stylesheet" href="OLX.css" />
+  </head>
+  <body>
+    <header style="background: rgb(248, 247, 247)">
+      <div
+        class="header"
+        style="
+          background-color: #fff;
+          padding-top: 10px;
+          padding-right: 41px;
+          margin-top: -5px;
+        "
+      >
+        <img
+          src="/images/olx-logo.png"
+          alt="olx-logo"
+          style="margin-left: 90px; height: 23px; margin-top: 8px"
+        />
+
+        <input
+          type="search"
+          list="Location"
+          placeholder="Search city,area or location"
+          autocomplete="search"
+          style="
+            border: 1.5px solid black;
+            padding: 10px;
+            border-radius: 3px;
+            width: 220px;
+            height: 40px;
+            margin-left: 12px;
+          "
+        />
+        <datalist id="Location">
+          <img src="/images/search icon.png" alt="" />
+          <option value="India">India</option>
+          <option value="Kerala">Kerala</option>
+          <option value="Kozhikode">Kozhikode</option>
+          <option value="Mele Palayam">Mele Palayam</option>
+          <option value="Vellimadukunnu">Vellimadukunnu</option>
+          <option value="Nadakkavu">Nadakkavu</option>
+        </datalist>
+
+        <form
+          action="/action_page.php"
+          style="max-width: 700px; margin-left: 15px"
+        >
+          <div class="input-container">
+            <input
+              class="input-field"
+              type="text"
+              placeholder="Find Cars,Mobile Phones and more..."
+              style="width: 500px"
+            />
+            <button type="submit">
+              <i
+                class="fa fa-search icon"
+                style="
+                  width: 30px;
+                  margin-left: -8px;
+                  margin-right: -7px;
+                  margin-top: -5px;
+                  border: 2px solid black;
+                  margin-bottom: -5px;
+                "
+              ></i>
+            </button>
+          </div>
+        </form>
+
+        <form style="margin-top: 10px">
+          <input
+            type="search"
+            list="Language"
+            placeholder="ENGLISH"
+            style="border: none; width: 100px; margin-left: 15px"
+          />
+          <datalist id="Language">
+            <option value="English "></option>
+            <option value="Hindi"></option>
+          </datalist>
+          <a
+            class="login"
+            href="https://www.olx.in/"
+            style="color: black; text-decoration-skip-ink: none"
+            >Login</a
+          >
+        </form>
+        <button class="sell"><b>+SELL</b></button>
+      </div>
+    </header>
+
+    <div
+      class="Car"
+      style="
+        box-shadow: 0px 0.01px 2px gray;
+        padding: 8px;
+        margin-top: 60px;
+        width: 100%;
+      "
+    >
+      <input
+        type="search"
+        list="All Catogries"
+        placeholder="All CATOGRIES"
+        style="border: none; margin-left: 90px; width: 140px"
+      />
+      <span>Cars &nbsp;&nbsp;&nbsp;</span>
+      <span> Motorcycles &nbsp;&nbsp;&nbsp;</span>
+      <span> Mobile Phones &nbsp;&nbsp;&nbsp;</span>
+      <span> Sale: Houses & Apartments &nbsp;&nbsp;&nbsp;</span>
+      <span>Scooters &nbsp;&nbsp;&nbsp;</span>
+      <span>Commercial & Other Vehicles &nbsp;&nbsp;&nbsp;</span>
+      <span> For Rent: Houses & Apartments</span>
+    </div>
+
+    <div class="banner">
+      <img src="https://statics.olx.in/olxin/banners/hero_bg_in_v1@1x.png" />
+    </div>
+    <button class="button"><b>Sell Car</b></button>
+    <span class="fresh">Fresh recommendations</span>
+    <div class="main" style="display: flex">
+      <div class="Fresh-recommendations">
+        <span class="heart"
+          ><img src="/images/Heart icon.png" style="width: 40px; height: 40px"
+        /></span>
+        <img src="/images/Jaguar XE Car.png" alt="Car" />
+        <span class="span1"><b>&#8377; 28,00,000</b></span>
+        <span class="span2">2017-30000.0 Km</span>
+        <span class="span3"><b>Jaguar XE</b></span>
+        <span class="span4"
+          >Thondayad<span style="margin-right: 10px">Oct 13</span></span
+        >
+      </div>
+      <div class="Fresh-recommendations">
+        <span class="heart"
+          ><img src="/images/Heart icon.png" style="width: 40px; height: 40px"
+        /></span>
+        <img src="/images/Audi Car.jpg" alt="Car" />
+        <span class="span1"><b>&#8377; 18,25,000</b></span>
+        <span class="span2">2014-77,000.0 Km</span>
+        <span class="span3"><b>Audi Q3</b></span>
+        <span class="span4"
+          >Thondayad<span style="margin-right: 10px">Oct 28</span></span
+        >
+      </div>
+
+      <div class="Fresh-recommendations">
+        <span class="heart"
+          ><img src="/images/Heart icon.png" style="width: 40px; height: 40px"
+        /></span>
+        <img src="/images/maruti car.jpg" alt="Car" />
+        <span class="span1"><b>&#8377; 7,99,999</b></span>
+        <span class="span2">2019-7.0 Km</span>
+        <span class="span3"><b>Maruti Suzuki Ciaz</b></span>
+        <span class="span4"
+          >Calicut civil Station<span style="margin-right: 10px"
+            >Today</span
+          ></span
+        >
+      </div>
+      <div class="Fresh-recommendations">
+        <span class="heart"
+          ><img src="/images/Heart icon.png" style="width: 40px; height: 40px"
+        /></span>
+        <img src="/images/Land Rover car.jpg" alt="Car" />
+        <span class="span1"><b>&#8377; 69,50,000</b></span>
+        <span class="span2">2019-33,000.0 Km</span>
+        <span class="span3"><b>Land Rover Discovery Sport</b></span>
+        <span class="span4"
+          >Thondayad<span style="margin-right: 10px">Jan 03</span></span
+        >
+      </div>
+      <div class="Fresh-recommendations">
+        <span class="heart"
+          ><img src="/images/Heart icon.png" style="width: 40px; height: 40px"
+        /></span>
+        <img src="/images/Vovlo car.jpg" alt="Car" />
+        <span class="span1"><b>&#8377; 49,00,000</b></span>
+        <span class="span2">2015-94,000.0 Km</span>
+        <span class="span3"><b>Volvo XC90</b></span>
+        <span class="span4"
+          >Thondayad<span style="margin-right: 10px">Jan 03</span></span
+        >
+      </div>
+      <div class="Fresh-recommendations">
+        <span class="heart"
+          ><img src="/images/Heart icon.png" style="width: 40px; height: 40px"
+        /></span>
+        <img src="/images/Volkswagen car.jpg" alt="Car" />
+        <span class="span1"><b>&#8377; 6,35,000</b></span>
+        <span class="span2">2017-58,000.0 Km</span>
+        <span class="span3"><b>Volkswagen Ameo</b></span>
+        <span class="span4"
+          >Puthiyara<span style="margin-right: 10px">Today</span></span
+        >
+      </div>
+      <div class="Fresh-recommendations">
+        <span class="heart"
+          ><img src="/images/Heart icon.png" style="width: 40px; height: 40px"
+        /></span>
+        <img src="/images/Hyundai Car.jpg" alt="Car" />
+        <span class="span1"><b>&#8377; 3,78,000</b></span>
+        <span class="span2">2014-81,000.0 Km</span>
+        <span class="span3"><b>Hyundai Grandi</b></span>
+        <span class="span4"
+          >Puthiyara<span style="margin-right: 10px">Yesterday</span></span
+        >
+      </div>
+      <div class="Fresh-recommendations">
+        <span class="heart"
+          ><img src="/images/Heart icon.png" style="width: 40px; height: 40px"
+        /></span>
+        <img src="/images/BMW Car.jpg" alt="Car" />
+        <span class="span1"><b>&#8377; 29,00,000</b></span>
+        <span class="span2">2016-64,500.0 Km</span>
+        <span class="span3"><b>BMW X3</b></span>
+        <span class="span4"
+          >Thondayad<span style="margin-right: 10px">Jan 03</span></span
+        >
+      </div>
+      <div class="Fresh-recommendations">
+        <span class="heart"
+          ><img src="/images/Heart icon.png" style="width: 40px; height: 40px"
+        /></span>
+        <img src="/images/Home1.jpg" alt="Car" />
+        <span class="span1"><b>&#8377; 36,01,11,111</b></span>
+        <span class="span2">3 Bds-3 Ba-1007 ft2</span>
+        <span class="span3"><b>3 bhk customized VILLAS@palakkad...</b></span>
+        <span class="span4"
+          >NURANI,PALAKKAD<span style="margin-right: 10px">
+            2 DAY AGO</span
+          ></span
+        >
+      </div>
+      <div class="Fresh-recommendations">
+        <span class="heart"
+          ><img src="/images/Heart icon.png" style="width: 40px; height: 40px"
+        /></span>
+        <img src="/images/Home2.jpg" alt="Car" />
+        <span class="span1"><b>&#8377; 8,00,00,000</b></span>
+        <span class="span2">4 Bds-4 Ba-9000 ft2</span>
+        <span class="span3"><b>47 Cent and Luxury... </b></span>
+        <span class="span4"
+          >ERNAKULAM<span style="margin-right: 10px"> 2 DAY AGO</span></span
+        >
+      </div>
+
+      <div class="Fresh-recommendations">
+        <span class="heart"
+          ><img src="/images/Heart icon.png" style="width: 40px; height: 40px"
+        /></span>
+        <img src="/images/Home3.jpg" alt="Car" />
+        <span class="span1"><b>&#8377; 5,50,00,000</b></span>
+        <span class="span2">3 Bds-4 Ba-1800 ft2</span>
+        <span class="span3"><b> House for sale... </b></span>
+        <span class="span4"
+          >KOTTIYAM,KOLLAM<span style="margin-right: 10px">
+            5 DAY AGO</span
+          ></span
+        >
+      </div>
+
+      <div class="Fresh-recommendations">
+        <span class="heart"
+          ><img src="/images/Heart icon.png" style="width: 40px; height: 40px"
+        /></span>
+        <img src="/images/Home4.jpg" alt="Car" />
+        <span class="span1"><b>&#8377; 7,00,00,000</b></span>
+        <span class="span2">4 Bds-4 Ba-12000 ft2</span>
+        <span class="span3"><b>1 Acer land with 12500 sq ft...</b></span>
+        <span class="span4"
+          >KANNADIURUMUMPU,PALAI<span style="margin-right: 10px">
+            3 DAY AGO</span
+          ></span
+        >
+      </div>
+
+      <div class="Fresh-recommendations">
+        <span class="heart"
+          ><img src="/images/Heart icon.png" style="width: 40px; height: 40px"
+        /></span>
+        <img src="/images/Home5.jpg" alt="Car" />
+        <span class="span1"><b>&#8377; 5,20,00,000</b></span>
+        <span class="span2">4 Bds-4 Ba-3500 ft2</span>
+        <span class="span3"><b>Benglouw for sale...</b></span>
+        <span class="span4"
+          >ERNAKULAM<span style="margin-right: 10px"> 2 DAY AGO</span></span
+        >
+      </div>
+
+      <div class="Fresh-recommendations">
+        <span class="heart"
+          ><img src="/images/Heart icon.png" style="width: 40px; height: 40px"
+        /></span>
+        <img src="/images/Home6.jpg" alt="Car" />
+        <span class="span1"><b>&#8377; 6,50,00,000</b></span>
+        <span class="span2">4 Bds-3 Ba-1750 ft2</span>
+        <span class="span3"><b>3BR,3BA HOUSE FOR SALE... </b></span>
+        <span class="span4"
+          >PALLICKATHOD,KOTTAYAM<span style="margin-right: 10px">
+            8 DAY AGO</span
+          ></span
+        >
+      </div>
+
+      <div class="Fresh-recommendations">
+        <span class="heart"
+          ><img src="/images/Heart icon.png" style="width: 40px; height: 40px"
+        /></span>
+        <img src="/images/Home7.jpg" alt="Car" />
+        <span class="span1"><b>&#8377; 7,50,00,000</b></span>
+        <span class="span2">4 Bds-4 Ba-50000 ft2</span>
+        <span class="span3"><b>RESORT MANNAR</b></span>
+        <span class="span4"
+          >PALLIVASAL,MUNNAR<span style="margin-right: 10px">
+            19 DAY AGO</span
+          ></span
+        >
+      </div>
+
+      <div class="Fresh-recommendations">
+        <span class="heart"
+          ><img src="/images/Heart icon.png" style="width: 40px; height: 40px"
+        /></span>
+        <img src="/images/Home8.jpg" alt="Car" />
+        <span class="span1"><b>&#8377; 6,50,00,000</b></span>
+        <span class="span2">4 Bds-4 Ba-3833 ft2</span>
+        <span class="span3"><b>Villa for sale in Bangalore... </b></span>
+        <span class="span4"
+          >THENGANA,CHANGANAC<span style="margin-right: 10px">
+            6 DAY AGO</span
+          ></span
+        >
+      </div>
+    </div>
+
+    <div class="footer-img">
+      <img
+        src="/images/phone-app img.webp"
+        style="height: 150px; width: 310px; margin-left: 140px"
+      />
+      <div>
+        <h2 style="margin-left: 40px"><strong>TRY THE OLX APP</strong></h2>
+        <span style="margin-left: 40px"
+          >Buy, sell and find just about anything using</span
+        ><br />
+        <span style="margin-left: 40px">the app on your mobile.</span>
+        <h6 style="margin-left: 400px; margin-top: -51px">
+          GET YOUR APP TODAY
+        </h6>
+      </div>
+
+      <div class="google">
+        <img src="/images/App Store olx.webp" />
+        <img src="/images/Google Play olx.webp" />
+      </div>
+    </div>
+    <div
+      class="footer"
+      style="
+        display: flex;
+        box-shadow: 0px 0.1px 1.5px gray;
+        background-color: #ebeeef;
+      "
+    >
+      <ul>
+        <li style="font-size: 11.5px; color: black">
+          <b>POPULAR LOCATIONS</b>
+        </li>
+        <li>Kolkata</li>
+        <li>Mumbai</li>
+        <li>Chennai</li>
+        <li>Pune</li>
+      </ul>
+      <ul>
+        <li style="font-size: 11.5px; color: black">
+          <b>TRENDING LOCATIONS</b>
+        </li>
+        <li>Bhubaneshwar</li>
+        <li>Hyderabad</li>
+        <li>Chandigarh</li>
+        <li>Nashik</li>
+      </ul>
+      <ul>
+        <li style="font-size: 11.5px; color: black">
+          <b>ABOUT US</b>
+        </li>
+        <li>About OLX Group</li>
+        <li>Careers</li>
+        <li>Contact Us</li>
+        <li>OLXPeople</li>
+        <li>Waah Jobs</li>
+      </ul>
+      <ul>
+        <li style="font-size: 11.5px; color: black">
+          <b>OLX</b>
+        </li>
+        <li>Help</li>
+        <li>Sitemap</li>
+        <li>Legal & Privacy information</li>
+        <li>Blog</li>
+      </ul>
+      <ul>
+        <li style="font-size: 11.5px; color: black"><b>FOLLOW US</b></li>
+        <div style="display: flex">
+          <li>
+            <img
+              src="/images/Facebook icon olx.png"
+              style="height: 20px; width: 35px; margin-top: 3px"
+            />
+          </li>
+          <li>
+            <img
+              src="/images/instragram logo olx.png"
+              style="
+                height: 18px;
+                width: 20px;
+                margin-top: 5px;
+                margin-left: -47px;
+              "
+            />
+          </li>
+          <li>
+            <img
+              src="/images/Twitter logo olx.png"
+              style="
+                height: 18px;
+                width: 20px;
+                margin-top: 5px;
+                margin-left: -70px;
+              "
+            />
+          </li>
+          <li>
+            <img
+              src="/images/Youtube Logo Olx.png"
+              style="
+                height: 18px;
+                width: 20px;
+                margin-top: 5px;
+                margin-left: -90px;
+              "
+            />
+          </li>
+        </div>
+        <div>
+          <img
+            src="/images/Google Play olx.webp"
+            style="
+              width: 65px;
+              height: 20px;
+              margin-left: 90px;
+              margin-top: 40px;
+            "
+          />
+          <img
+            src="/images/App Store olx.webp"
+            style="width: 65px; height: 20px"
+          />
+        </div>
+      </ul>
+    </div>
+    <div class="footer-border">
+      <span>Other Countries Pakistan - South Africa - Indonesia</span
+      ><span>Free Classifieds in India. © 2006-2022 OLX</span>
+    </div>
+  </body>
+</html>
